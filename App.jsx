@@ -39,7 +39,7 @@ function App() {
     if(question=="") setAnswer("Please Enter prompt")
     else{
     const response = await axios({
-      url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyAW34Vj1Pj5tsT0teSqkPcis_Hkyw7rMC8",
+      url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" ",
       method:"post",
       data:{
         contents :[
@@ -58,7 +58,7 @@ async function translateHin(){
   if(question=="") setAnswer("Please Enter prompt")
   else{
   const response = await axios({
-    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyAW34Vj1Pj5tsT0teSqkPcis_Hkyw7rMC8",
+    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" ",
     method:"post",
     data:{
       contents :[
@@ -77,7 +77,7 @@ async function translateEng(){
   if(question=="") setAnswer("Please Enter prompt")
   else{
   const response = await axios({
-    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyAW34Vj1Pj5tsT0teSqkPcis_Hkyw7rMC8",
+    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" ",
     method:"post",
     data:{
       contents :[
